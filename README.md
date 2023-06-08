@@ -1,1 +1,1 @@
-# Desafio-Jogo, jogo de avinhação.
+# Desafio-Jogo, jogo de adivinhação.
