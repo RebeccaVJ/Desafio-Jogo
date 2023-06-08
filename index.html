@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhacao</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+<body>
+    <main class="container">
+        <h1 class="container-titulo">qual é o seu número secreto?</h1>
+         <div class="caixa" id="caixa-number">
+            <p class="caixa-acerto caixa-resposta">você acertou!</p>
+            <p class="caixa-erro caixa-resposta">você errou!</p>
+            <p><span class="caixa-numero">**</span></p>
+        </div>
+
+        <input type="number" class="input-digitacao" id="campo-input"></input>
+
+        <button class="botao-estilo" id="botao-chute">chutar</button>
+        <button class="botao-jogar-de-novo" id="botao-reset">jogar novamente</button>
+            
+        <div>
+            <ul class="lista-dica">
+                <li>O número secreto é MAIOR que <span id="numero">45</span></li>
+                <li>O número secreto é MENOR que <span id="numero">50</span></li>
+                <li>O número secreto é MAIOR que <span id="numero">46</span></li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html> 

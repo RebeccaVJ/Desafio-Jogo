@@ -1,0 +1,101 @@
+:root {
+    --fonte-principal: 'Inter';
+    --azul: #7F8EDC;
+    --branco: #FFFFFF;
+    --cinza:rgba(188, 184, 184, 0.113);
+    --verde-background: #9CEB9B;
+    --vermelho-erro: #d62b2baf;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    min-width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-titulo {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.caixa {
+    height: 245px;
+    width: 441px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.159);
+    margin-top: 12px;
+    border-radius: 4px;
+}
+
+.caixa-numero {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.input-digitacao {
+    margin-top: 30px;
+    height: 25px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: var(--cinza);
+}
+
+.botao-estilo {
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+    width: 7%;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.botao-estilo:active {
+    background-color: #6575c2;
+}
+
+.botao-estilo:hover {
+    cursor: pointer;
+}
+
+.botao-jogar-de-novo {
+    display: none;
+    border: none;
+    margin-top: 10px;
+    background-color: var(--branco);
+    font-weight: 400;
+    color: var(--azul);
+
+}
+
+.lista-dica {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.caixa-resposta {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 30px;
+    display: none;
+}
+
+.caixa-acerto {
+    background-color: var(--verde-background);
+}
+
+.caixa-erro {
+    background-color: var(--vermelho-erro);
+}
