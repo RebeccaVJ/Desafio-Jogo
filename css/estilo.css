@@ -65,18 +65,17 @@ body {
     background-color: #6575c2;
 }
 
-.botao-estilo:hover {
-    cursor: pointer;
-}
-
-.botao-jogar-de-novo {
-    display: none;
+.botao-jogar-novamente {
     border: none;
     margin-top: 10px;
     background-color: var(--branco);
     font-weight: 400;
     color: var(--azul);
 
+}
+
+.botao-jogar-novamente:active {
+    color: #6575c2;
 }
 
 .lista-dica {
@@ -92,10 +91,6 @@ body {
     display: none;
 }
 
-.caixa-acerto {
+.acertou {
     background-color: var(--verde-background);
-}
-
-.caixa-erro {
-    background-color: var(--vermelho-erro);
 }
